@@ -5,4 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :orders
+
+  # def premium?
+  #   orders.where
+  # end
 end
